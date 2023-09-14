@@ -1,13 +1,16 @@
+/* Universal Selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Element selector of the body of the webpage */
 body {
     background-color: #d9dcd6;
 }
 
+/* Element selector of the header inside the body */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* Element selector of the heading inside the header */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Class selector of the seo class inside the heading inside the header */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Element selector of the navigation elements inside the header */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ header nav {
     font-size: 20px;
 }
 
+/* Element selector of the list inside the navigation elements inside the header */
 header nav ul {
     list-style-type: none;
 }
 
+/* Element selector of the list item in the list inside the navigation elements inside the header */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Element selector of the links on the webpage */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Element selector of the paragraphs on the webpage */
 p {
     font-size: 16px;
 }
 
+/* Class selector of the focal image of the webpage */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* Class selector of the images within the main element of the body */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Class selector of the images within the main element of the body */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Class selector of the content class within the main element of the body */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Class selector of the benefits class within the aside element of the body */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,54 +101,64 @@ p {
     background-color: #2589bd;
 }
 
+/* ID selector of the benefit-lead ID within the aside element of the body */
 #benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* ID selector of the benefit-brand ID within the aside element of the body */
 #benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* ID selector of the benefit-cost ID within the aside element of the body */
 #benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* ID selector of the benefit-lead ID heading within the aside element of the body */
 #benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* ID selector of the benefit-brand heading ID within the aside element of the body */
 #benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* ID selector of the benefit-cost heading ID within the aside element of the body */
 #benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* ID selector of the benefit-lead image ID within the aside element of the body */
 #benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* ID selector of the benefit-brand image ID within the aside element of the body */
 #benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* ID selector of the benefit-cost image ID within the aside element of the body */
 #benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* ID selector of the search-engine-optimization ID within the main element of the body */
 #search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +168,7 @@ p {
     color: #ffffff;
 }
 
+/* ID selector of the online-reputation-management ID within the main element of the body */
 #online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +178,7 @@ p {
     color: #ffffff;
 }
 
+/* ID selector of the social-media-marketing ID within the main element of the body */
 #social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +188,40 @@ p {
     color: #ffffff;
 }
 
+/* ID selector of the search-engine-optimization ID image within the main element of the body */
 #search-engine-optimization img {
     max-height: 200px;
 }
 
+/* ID selector of the online-reputation-management ID image within the main element of the body */
 #online-reputation-management img {
     max-height: 200px;
 }
 
+/* ID selector of the social-media-marketing ID image within the main element of the body */
 #social-media-marketing img {
     max-height: 200px;
 }
 
+/* ID selector of the search-engine-optimization ID heading within the main element of the body */
 #search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* ID selector of the online-reputation-management ID heading within the main element of the body */
 #online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* ID selector of the social-media-marketing ID heading within the main element of the body */
 #social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Element selector of the footer inside the body of the webpage */
 footer {
     padding: 30px;
     clear: both;
@@ -195,6 +229,7 @@ footer {
     text-align: center;
 }
 
+/* Element selector of the footer heading inside the body of the webpage */
 footer h2 {
     font-size: 20px;
 }
