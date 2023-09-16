@@ -38,15 +38,11 @@ header nav {
     font-size: 20px;
 }
 
-/* Element selector of the list inside the navigation elements inside the header */
-header nav ul {
-    list-style-type: none;
-}
-
-/* Element selector of the list item in the list inside the navigation elements inside the header */
-header nav ul li {
+/* Class selector of the navigation headings in the body */
+.navigation {
     display: inline-block;
     margin-left: 25px;
+    font-size: 20px;
 }
 
 /* Element selector of the links on the webpage */
