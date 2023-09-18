@@ -146,6 +146,6 @@ footer {
 }
 
 /* Element selector of the footer heading inside the body of the webpage */
-footer h2 {
+footer h4 {
     font-size: 20px;
 }
